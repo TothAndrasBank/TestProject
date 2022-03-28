@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class Log {
-    private static final String PATH = "src/main/resources/logs/";
+    private static final String PATH = System.getProperty("user.dir")+"/TestProject-main/src/main/resources/logs/";
     private static final String FILE_NAME = "app.log";
     private static final Logger logger;
 
